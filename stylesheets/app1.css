@@ -1,0 +1,107 @@
+h1{
+	text-align:center;
+
+}
+
+body{
+	background: white;
+}
+
+p{
+	text-align: center;
+	font-size: 1.2em;
+	color: #7F7A7F;
+
+
+}
+
+
+
+
+#link{
+	color: #252586;
+}
+
+
+h2{
+	text-align: center;
+	font-size: 1.2em;
+	color: #252586;
+
+
+}
+
+img{
+	width:720px;
+    height:480px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+
+
+#papas2{
+	width:200px;
+    height:200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+
+
+.problema{
+	text-align: center;
+	padding-top: 50px;
+}
+
+
+.problema{
+	text-align: center;
+	padding-top: 75px;
+}
+
+
+h6{
+	text-align: center;
+}
+
+iframe{
+	width: 200px; 
+	height:300px;
+}
+
+.top-bar{
+	background: #252586;
+}
+
+.top-bar .right{
+	background: #a52a00;
+}
+
+
+.top-bar-section .dropdown li label {
+    white-space: nowrap;
+    background: #a52a00;
+
+}
+
+#myModal{
+	text-align: center;
+}
+
+p>a{
+	color: #a52a00;
+}
+
+.dropdown{
+  background: #a52a00;	
+}
+
+a{
+	color: white;
+}
+

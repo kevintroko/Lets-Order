@@ -1,0 +1,31 @@
+body{
+	background: #FFFFFF;
+}
+
+#titulo{
+	text-align: center;
+	font-family: "Lobster", Cursive;
+	background-color: #994924;
+	border-radius: 25px;
+	color: #2F1C18;
+	margin: 10px;
+}
+
+.Texto{
+	background: #FAE9AC;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.top-bar{
+	background: #252586;
+}
+
+.left{
+	background: #252586;
+}
+
+
+p{
+	color: #2F1C18;
+}
