@@ -3,26 +3,6 @@ h1{
 
 }
 
-body{
-	background: white;
-}
-
-p{
-	text-align: center;
-	font-size: 1.2em;
-	color: #7F7A7F;
-
-
-}
-
-
-
-
-#link{
-	color: #252586;
-}
-
-
 h2{
 	text-align: center;
 	font-size: 1.2em;
@@ -31,33 +11,39 @@ h2{
 
 }
 
+h3{
+	text-align: center;
+}
+body{
+	background: white;
+}
+
+p{
+	text-align: center;
+	font-size: 1.2em;
+	color: #7F7A7F;
+}
+
+
+#link{
+	color: #252586;
+}
+
+
+
 img{
 	width:720px;
     height:480px;
-    display: block;
-    margin-left: auto;
+    /*display: block;*/
+   /* margin-left: auto;
     margin-right: auto;
-    padding: 10px;
+    /*padding: 10px;*/
 }
-
-
-
-#papas2{
-	width:200px;
-    height:200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-}
-
-
 
 .problema{
 	text-align: center;
 	padding-top: 50px;
 }
-
 
 .problema{
 	text-align: center;
@@ -75,7 +61,7 @@ iframe{
 }
 
 .top-bar{
-	background: #252586;
+	background: #a52a00;
 }
 
 .top-bar .right{
@@ -105,3 +91,38 @@ a{
 	color: white;
 }
 
+.Iconos{
+	width: 150px; 
+	height:170px;
+	margin-top: 200px;
+
+
+}
+
+.Iconos2{
+	width: 150px; 
+	height:150px;
+	margin-top: 200px;
+}
+.logo{
+	margin-top: 50px;
+	max-width: 100%;
+ 	height: auto;
+}
+
+.button {
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  border-color: #a52a00 !important;
+  border-width: 2px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #3498db), color-stop(5%, #3498db), color-stop(100%, #258cd1));
+  background-image: -webkit-linear-gradient(#a52a00, #a52a00 5%, #a52a00);
+  background-image: -moz-linear-gradient(#a52a00, #a52a00 5%, #a52a00);
+  background-image: -o-linear-gradient(#a52a00, #a52a00 5%, #a52a00);
+  background-image: linear-gradient(#a52a00, #a52a00 5%, #a52a00);
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0) inset;
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0) inset;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0) inset;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}

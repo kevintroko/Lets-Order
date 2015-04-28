@@ -5,13 +5,13 @@
 <head>
 	<meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
-  <title>Prototype</title>
+  <title>Let's Order</title>
 
   <link rel="stylesheet" href="stylesheets/normalize.css" />
 
   <link rel="stylesheet" href="stylesheets/app.css" />
 
-  <link rel="stylesheet" href="stylesheets/app1.css" />  
+  <link rel="stylesheet" href="stylesheets/app1.css" /> 
 
   <script type="text/javascript" src="vendor/script.js"></script>
 
@@ -28,7 +28,7 @@
             <ul class="title-area">
               <!-- Title Area -->
               <li class="name">
-                <h1><a href="index.html">Let's move the way of think</a></h1>
+                <h1><a href="index.html">Let's Order</a></h1>
               </li>
               <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
               <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
@@ -52,9 +52,9 @@
               <!-- Right Nav Section -->
               <ul class="right">
                 
-                <li><a href="#">Solucion</a></li>
+                <li><a href="#">Iniciar Sesión</a></li>
               
-                <li><a href="#TEAM">Team</a></li>
+                <li><a href="#TEAM">Registrarse</a></li>
                 
               </ul>
 
@@ -65,53 +65,44 @@
       </div>
   
   <div class="row">
-    <div class="small-12 large-12 columns">  
+    <div class="small-4 large-3 columns">  
 
-  	<img src="images/manos.jpg">
+  	<img class="Iconos" src="images/ico1.jpg">
+
+    </div>
+    <div class="small-4 large-6 columns">  
+
+    <img class="logo" src="images/logo.jpg">
+
+    </div>
+    <div class="small-4 large-3 columns">  
+
+    <img  class="Iconos2" src="images/ico2.jpg">
 
     </div>
   </div>
 
-<p>
-  <div class="row">
-    <div class="small-12 large-12 columns"><h1><a name="PROBLEMA"></a>Problems to solve</h1></div>
-    <p>Most of the hand therapies for some kids tend to be very monotone and usually is hard to get the kid’s attention in some of the exercises because they do not understand the purpose of them, so we want to solve this problem in order to make easier the therapies for both sides (the kids and the one who does the therapy).</p>
+  
+
+  <div class="large-12 columns">
+                <div>
+                  <h3>A NEW WAY TO EAT</h3>
+                  <p></p>
+                </div>
+              
   </div>
 
+  <div class="row" ng-controller="controlador">
+   <div class="small-12 large-12 columns">
 
-
-  <div class="row">
-    <div class="small-12 large-12 columns"><h1><a name="AUDIENCIA"></a>How to solve it</h1>
-
-    	<p>We are creating a functional prototype for a glove with devices in order to make some entertaining ways to stimulate a certain hand movement in this case the movement in the figure 1.1, where the kid will play a game that will interact with his hand to make a dynamic and visual form to develop a movement and at the same time let the user to play and forget he is doing therapy.</p>
-
-    </div>
+   <div class="large-10 columns">
+                  <label><h6>Ubicación</h6></label>
+                  <input type="text" placeholder="Ingresa tu ubicación">
+                </div>
+  <div class="large-2 columns">
+    <button type="button" class="button radius">Ordena! </button>
   </div>
-
-
-  <div class="row">
-    <div class="small-12 large-12 columns"><h1>Main characteristics</h1><a name="C1"></a>
-    	<p>The device will be connected from a leather glove with metallic plates to get the feedback of what the user is doing, all the data send to a Galileo Arduino with an adaptable base in his arm so every kind of user can use it no matter his arm size. The information gathered in the Arduino connects to a computer where the game is being played. Easy to carry and adapt to necessities (also the glove is no very expensive). </p>
-
-    </div>
   </div>
-
-
-  <div class="row">
-    <div class="small-12 large-12 columns"><h1>TEAM</h1><a name="TEAM"></a></div>
-    <div class="small-4 large-4 columns"><img id="papas2" src="images/ACM-2.jpg">
-  <h2><strong>Diego Toledo</strong></h2>
-  <p>Tepic, Nayarit</p>
-  <h2><a id="link" href="https://twitter.com/RicardoHdzm">@DiegoToledo</a></h2>
-    </div>
-    <div class="small-4 large-4 columns"></div>
-    <div class="small-4 large-4 columns"><img id="papas2" src="images/ACM-1.jpg">
-      <h2><strong>Kevin Cabrera</strong></h2>
-      <p>Guadalajara, Jalisco</p>
-      <h2><a id="link" href="https:// twitter.com/kevintroko">@kevintroko</a></h2>
-    </div>
-  </div>
-
 
 
   <script src="javascripts/vendor/jquery.js"></script>
@@ -120,6 +111,7 @@
   <script src="bower_components/foundation/js/foundation.min.js"></script>
 
   <script>
+
     $(document).foundation();
   </script>
   <script type="text/javascript">
