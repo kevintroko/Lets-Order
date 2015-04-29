@@ -31,7 +31,7 @@
                 <h1><a href="index.html">Let's Order</a></h1>
               </li>
               <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-              <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+              <li class="toggle-topbar menu-icon"><a href="#"><span>Menú</span></a></li>
             </ul>
 
           <section class="top-bar-section">
@@ -51,12 +51,82 @@
               </ul>
               <!-- Right Nav Section -->
               <ul class="right">
-                
-                <li><a href="index2.html">Iniciar Sesión</a></li>
               
-                <li><a href="Index3.html">Registrarse</a></li>
+              
+                <li>
+                   <a href="#Inicia" data-reveal-id="myModals">Inicia Sesión</a>
+                    <div name="Inicia">                
+                      <div id="myModals" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog" name="Inicia">
+                        <h2 id="modalTitle">Inicia Sesión</h2>
+                        <p class="lead">Bienvenido de nuevo.</p>
+                        <div>
+                          <input type="text" placeholder="Ingresa tu nombre usuario">
+                        </div>
+                        <div>
+                          <input type="text" placeholder="Ingresa tu contraseña">
+                        </div>
+                        <button type="button" class="button radius">Aceptar </button>
+                        <p><a href="#">¿No recuerdas tu nombre de usuario?</a></p>
+                        <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+                      </div>
+                    </div>
+                </li>
+
+                <li> 
+                  <a href="#IniciaSesion" data-reveal-id="myModal">Registrarse</a>
+                  <div name="IniciaSesion">               
+                  <div id="myModal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog" name="IniciaSesion">
+                      <h2 id="modalTitle">Registrate</h2>
+                      <p class="lead">Disfruta de la nueva forma de ordenar.</p>
                 
-              </ul>
+                    <div>
+                      <input type="text" placeholder="Ingresa tu nombre">
+                    </div>
+                    <div>
+                      <input type="text" placeholder="Ingresa tu correo electronico">
+                    </div>
+                    <div>
+                      <input type="text" placeholder="Ingresa tu nombre usuario">
+                    </div>
+                    <div>
+                      <input type="text" placeholder="Ingresa tu contraseña">
+                    </div>
+                
+
+                    <a class="close-reveal-modal" aria-label="Close">&#215; </a>
+                  
+                    <button type="button" class="button radius">Comienza ya! </button>
+                    <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+
+
+
+                    <p><a href="index.html" data-reveal-id="secondModal">¿Conoces nuestros terminos y condiciones?</a></p>
+
+
+
+                    
+
+                    <div id="secondModal" class="reveal-modal" data-reveal aria-labelledby="secondModalTitle" aria-hidden="true" role="dialog">
+                      <h2 id="secondModalTitle">Terminos y condiciones</h2>
+                      <p>
+
+
+                      Al aceptar estos términos, el usuario se compromete a hacer un buen uso de la aplicación LetsOrder. Al mismo tiempo al aceptar, LetsOrder se deslinda de los problemas que puedan por causa de descuidos del usuario, tales como dejar su cuenta de LetsOrder en un dispositivo ajeno al suyo y casos similares.
+                       
+                      Al aceptar, LetsOrder adquiere derechos para poder usar tu imagen para actividades de la compañía como lo son promoción de la aplicación, entre otras cosas
+
+                    He leído y acepto los terminos y condiciones</p>
+                      <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+                    </div>
+
+                </div>
+
+                
+
+                </div>
+                </div>
+              </li>
+            </ul>
 
 
             </section></nav>
