@@ -54,54 +54,77 @@
               
                 <li>
                    <a href="#Inicia" data-reveal-id="myModals">Inicia Sesión</a>
-                <div name="Inicia">                
-                  <div id="myModals" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog" name="Inicia">
-                  <h2 id="modalTitle">Inicia Sesión</h2>
-                  <p class="lead">Bienvenido de nuevo.</p>
-                
-        
-                <div>
-                <input type="text" placeholder="Ingresa tu nombre usuario">
-                </div>
-                <div>
-                <input type="text" placeholder="Ingresa tu contraseña">
-                </div>
-                <button type="button" class="button radius">Aceptar </button>
-                  <p><a href="#">¿No recuerdas tu nombre de usuario?</a></p>
-                  <a class="close-reveal-modal" aria-label="Close">&#215;
-                  </a>
-                </div>
-                </div>
-
+                    <div name="Inicia">                
+                      <div id="myModals" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog" name="Inicia">
+                        <h2 id="modalTitle">Inicia Sesión</h2>
+                        <p class="lead">Bienvenido de nuevo.</p>
+                        <div>
+                          <input type="text" placeholder="Ingresa tu nombre usuario">
+                        </div>
+                        <div>
+                          <input type="text" placeholder="Ingresa tu contraseña">
+                        </div>
+                        <button type="button" class="button radius">Aceptar </button>
+                        <p><a href="#">¿No recuerdas tu nombre de usuario?</a></p>
+                        <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+                      </div>
+                    </div>
                 </li>
 
                 <li> 
                   <a href="#IniciaSesion" data-reveal-id="myModal">Registrarse</a>
-                <div name="IniciaSesion">               
-                 <div id="myModal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog" name="IniciaSesion">
-                  <h2 id="modalTitle">Registrate</h2>
-                  <p class="lead">Disfruta de la nueva forma de ordenar.</p>
+                  <div name="IniciaSesion">               
+                  <div id="myModal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog" name="IniciaSesion">
+                      <h2 id="modalTitle">Registrate</h2>
+                      <p class="lead">Disfruta de la nueva forma de ordenar.</p>
                 
-                <div>
-                <input type="text" placeholder="Ingresa tu nombre">
+                    <div>
+                      <input type="text" placeholder="Ingresa tu nombre">
+                    </div>
+                    <div>
+                      <input type="text" placeholder="Ingresa tu correo electronico">
+                    </div>
+                    <div>
+                      <input type="text" placeholder="Ingresa tu nombre usuario">
+                    </div>
+                    <div>
+                      <input type="text" placeholder="Ingresa tu contraseña">
+                    </div>
+                
+
+                    <a class="close-reveal-modal" aria-label="Close">&#215; </a>
+                    <p><a href="Index3.html"  class="secondary button">Registrate</a></p>
+                    <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+
+
+
+                    <p><a href="index.html" data-reveal-id="secondModal">¿Conoces nuestros terminos y condiciones?</a></p>
+
+
+
+                    
+
+                    <div id="secondModal" class="reveal-modal" data-reveal aria-labelledby="secondModalTitle" aria-hidden="true" role="dialog">
+                      <h2 id="secondModalTitle">Terminos y condiciones</h2>
+                      <p>
+
+
+                      Al aceptar estos términos, el usuario se compromete a hacer un buen uso de la aplicación LetsOrder. Al mismo tiempo al aceptar, LetsOrder se deslinda de los problemas que puedan por causa de descuidos del usuario, tales como dejar su cuenta de LetsOrder en un dispositivo ajeno al suyo y casos similares.
+                       
+                      Al aceptar, LetsOrder adquiere derechos para poder usar tu imagen para actividades de la compañía como lo son promoción de la aplicación, entre otras cosas
+
+                    He leído y acepto los terminos y condiciones</p>
+                      <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+                    </div>
+
                 </div>
-                <div>
-                <input type="text" placeholder="Ingresa tu correo electronico">
-                </div>
-                <div>
-                <input type="text" placeholder="Ingresa tu nombre usuario">
-                </div>
-                <div>
-                <input type="text" placeholder="Ingresa tu contraseña">
-                </div>
-                <button type="button" class="button radius">Comienza ya! </button>
-                  <p><a href="#">¿Conoces nuestros terminos y condiciones?</a></p>
-                  <a class="close-reveal-modal" aria-label="Close">&#215;
-                  </a>
+
+                
+
                 </div>
                 </div>
-</li>
-              </ul>
+              </li>
+            </ul>
 
 
             </section></nav>
@@ -110,18 +133,18 @@
       </div>
   
   <div class="row">
-    <div class="small-4 large-3 columns">  
+    <div class="small-3 large-3 columns">  
       <a href="Index3.html">
-  	<img class="Iconos" src="images/ico1.jpg">
+  	<img class="Iconos" src="images/casa.png">
       </a>
     </div>
-    <div class="small-4 large-6 columns">  
+    <div class="small-6 large-6 columns">  
       <a href="http://ricardohdzm.github.io/index.html#PROBLEMA">
     <img class="logo" src="images/logo.jpg">
     </a>
 
     </div>
-    <div class="small-4 large-3 columns">  
+    <div class="small-3 large-3 columns">  
       <a href="index2.html">
     <img  class="Iconos2" src="images/ico2.jpg">
       </a>
@@ -142,11 +165,11 @@
   <div class="row" ng-controller="controlador">
    <div class="small-12 large-12 columns">
 
-   <div class="large-10 columns">
+   <div class="small-8 large-10 columns">
                  <!-- <label><h6>Ubicación</h6></label>!-->
                   <input type="text" placeholder="Ingresa tu ubicación">
                 </div>
-  <div class="large-2 columns">
+  <div class="small-4 large-2 columns">
     <button type="button" class="button radius">Ordena! </button>
   </div>
   </div>
